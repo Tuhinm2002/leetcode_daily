@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://flink.apache.org/img/logo/png/1000/flink_squirrel_1000.png" width="100" />
+  <img src="https://as1.ftcdn.net/v2/jpg/05/26/58/82/1000_F_526588256_RsCjyS91WJ4T3MA2J4xpTqokLUlGHkyK.jpg" width="100" />
 </p>
 <p align="left">
     <h1 align="left">PYFLINK-POC</h1>
