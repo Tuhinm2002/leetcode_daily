@@ -99,7 +99,7 @@ If you have suggestions for questions, better solutions, or want to discuss a to
 
 Contributions are welcome! Here are several ways you can contribute:
 
-- **[Report Issues](https://local/pyflink-poc/issues)**: Submit bugs found or log feature requests for the `pyflink-poc` project.
+- **[Report Issues](https://local/pyflink-poc/issues)**: Submit bugs found or log feature requests for the `leetcode_daily` project.
 - **[Submit Pull Requests](https://local/pyflink-poc/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 - **[Join the Discussions](https://local/pyflink-poc/discussions)**: Share your insights, provide feedback, or ask questions.
 
