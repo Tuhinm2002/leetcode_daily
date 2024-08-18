@@ -2,10 +2,10 @@
   <img src="https://as1.ftcdn.net/v2/jpg/05/26/58/82/1000_F_526588256_RsCjyS91WJ4T3MA2J4xpTqokLUlGHkyK.jpg" width="100" />
 </p>
 <p align="left">
-    <h1 align="left">PYFLINK-POC</h1>
+    <h1 align="left">Leetcode Daily</h1>
 </p>
 <p align="left">
-    <em>Empowering seamless data processing and streaming experiences.</em>
+    <em>Practicing Questions on a daily basis and Publishing it on GitHub to track them</em>
 </p>
 <p align="left">
 	<!-- local repository, no metadata badges. -->
@@ -14,127 +14,44 @@
 		<em>Developed with the software and tools below.</em>
 </p>
 <p align="left">
+	<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white" alt="java">
 	<img src="https://img.shields.io/badge/GNU%20Bash-4EAA25.svg?style=default&logo=GNU-Bash&logoColor=white" alt="GNU%20Bash">
-	<img src="https://img.shields.io/badge/Apache%20Flink-E6526F.svg?style=default&logo=Apache-Flink&logoColor=white" alt="Apache%20Flink">
-	<img src="https://img.shields.io/badge/YAML-CB171E.svg?style=default&logo=YAML&logoColor=white" alt="YAML">
 	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=default&logo=Python&logoColor=white" alt="Python">
-	<img src="https://img.shields.io/badge/AIOHTTP-2C5BB4.svg?style=default&logo=AIOHTTP&logoColor=white" alt="AIOHTTP">
-	<img src="https://img.shields.io/badge/Apache%20Kafka-231F20.svg?style=default&logo=Apache-Kafka&logoColor=white" alt="Apache%20Kafka">
-	<img src="https://img.shields.io/badge/pandas-150458.svg?style=default&logo=pandas&logoColor=white" alt="pandas">
 </p>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+## 📅 Overview
 
-- [📍 Overview](#-overview)
-- [🧩 Features](#-features)
-- [🗂️ Repository Structure](#️-repository-structure)
-- [📦 Modules](#-modules)
-- [🚀 Getting Started](#-getting-started)
-  - [⚙️ Installation](#️-installation)
-  - [🤖 Usage](#-usage)
-  - [🧪 Tests](#-tests)
-- [🛠 Project Roadmap](#-project-roadmap)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [👏 Acknowledgments](#-acknowledgments)
-</details>
-<hr>
+This repository is a personal journey to enhance my problem-solving abilities. Each day, I solve and document questions from various domains to ensure consistent learning and growth.
 
-## 📍 Overview
+### 🛠️ Repository Structure
 
-The pyflink-poc project is a robust software showcasing the integration of PyFlink with Kafka for data streaming and processing. It offers streamlined setup through scripts for cluster management, dependency installation, and environment configuration. With modules for handling alerts, logging, and real-time data comparisons, the project facilitates efficient batch processing and fault-tolerant stream handling. Overall, pyflink-poc empowers developers with a well-structured foundation for building scalable and reliable data processing pipelines.
+- **📂 Daily Challenges:** A directory containing folders for each day's practice.
+  - **Day-01:** Description, solution, and learning notes.
+  - **Day-02:** Description, solution, and learning notes.
+  - ...
+  
+- **📈 Progress Tracker:** A log to track daily progress and achievements.
+  - **log.md:** Contains a brief description of what was practiced each day and key takeaways.
 
----
+- **💡 Insights:** Reflections on the most challenging questions, patterns observed, and areas for improvement.
 
-## 🧩 Features
+## 🌟 Key Features
 
-|    |   Feature         | Description |
-|----|-------------------|---------------------------------------------------------------|
-| ⚙️  | **Architecture**  | The project has a modular architecture that separates data processing components from stream processing. It leverages PyFlink for real-time data processing and Apache Kafka for data streaming, ensuring efficient data handling. |
-| 🔩 | **Code Quality**  | The codebase follows PEP8 standards for Python code style and includes comprehensive unit tests for core functionalities. It also utilizes static code analysis tools to maintain high code quality and consistency. |
-| 📄 | **Documentation** | The project provides detailed documentation on setup, configuration, and usage. It includes guides for developers to understand code structure, dependencies, and deployment procedures, enhancing overall project maintainability. |
-| 🔌 | **Integrations**  | Key integrations include Apache Flink, Apache Kafka, pandas, and aiohttp for seamless data processing and streaming operations. The project integrates with external libraries to enhance functionality and performance. |
-| 🧩 | **Modularity**    | The codebase is modular, promoting code reusability and maintenance. Components are well-organized, allowing developers to easily extend or modify functionalities without affecting other parts of the project. |
-| 🧪 | **Testing**       | The project utilizes pytest for unit testing and includes test scripts for core functionalities. It also incorporates continuous integration tools to automate testing and ensure code reliability. |
-| ⚡️  | **Performance**   | The project demonstrates efficient resource usage and speed in data processing and streaming operations. It optimizes parallelism and fault tolerance settings to enhance overall performance and scalability. |
-| 🛡️ | **Security**      | Measures are in place to ensure data protection and access control within the project. Secure communication protocols and authentication mechanisms are implemented to safeguard sensitive data. |
-| 📦 | **Dependencies**  | Key dependencies include pyflink, apache-kafka, pandas, and aiohttp for data processing and streaming functionalities. External libraries are managed through requirements.txt and setup.py for streamlined dependency management. |
+- **Consistency:** Daily updates to ensure regular practice.
+- **Variety:** Questions from different topics to cover a broad spectrum.
+- **Growth Focused:** Emphasis on learning and improvement.
 
----
 
-## 🗂️ Repository Structure
+## 🔗 Links
 
-```sh
-└── pyflink-poc/
-    ├── README.md
-    ├── conf
-    │   ├── conf.toml
-    │   └── flink-config.yaml
-    ├── data
-    │   └── data.csv
-    ├── requirements.txt
-    ├── scripts
-    │   ├── clean.sh
-    │   └── run.sh
-    ├── setup
-    │   └── setup.sh
-    ├── setup.py
-    └── src
-        ├── alerts_handler.py
-        ├── consumer.py
-        └── logger.py
-```
+- **[Practice Log](log.md)**
+- **[Question Sources](sources.md)**
 
----
+## 🏆 Achievements
 
-## 📦 Modules
-
-<details closed><summary>.</summary>
-
-| File                                 | Summary                                                                                                                                                                                                                                                            |
-| ---                                  | ---                                                                                                                                                                                                                                                                |
-| [requirements.txt](requirements.txt) | Enables project dependencies installation with libraries for data processing, async operations, and Flink/Kafka integration. Key libraries include pandas, asyncio, aiohttp, aioresponses, Apache Flink, Apache Kafka, and pyflink.                                |
-| [setup.py](setup.py)                 | Sets up dependencies for the project through package management. Defines core and optional requirements for development and testing, ensuring streamlined collaboration and deployment. Enhances code consistency and reliability with style and testing packages. |
-
-</details>
-
-<details closed><summary>setup</summary>
-
-| File                       | Summary                                                                                                                                                                                                  |
-| ---                        | ---                                                                                                                                                                                                      |
-| [setup.sh](setup/setup.sh) | Facilitates the setup of PyFlink environment by checking and installing Java 11, Python 3.7, Conda, and PyFlink. Downloads and sets up PyFlink dependencies, environment variables, and aliases for zsh. |
-
-</details>
-
-<details closed><summary>scripts</summary>
-
-| File                         | Summary                                                                                                                                                                                                                         |
-| ---                          | ---                                                                                                                                                                                                                             |
-| [run.sh](scripts/run.sh)     | Initiates Flink cluster, runs PyFlink job, and stops the cluster. Manages cluster operations for executing PyFlink jobs. Essential script in repository architecture for job execution.                                         |
-| [clean.sh](scripts/clean.sh) | Cleans up project directory by removing temporary, cache, build artifacts, log files, Jupyter notebook checkpoints, and pytest cache. Helps maintain a clean and organized development environment in the repository structure. |
-
-</details>
-
-<details closed><summary>conf</summary>
-
-| File                                        | Summary                                                                                                                                                                 |
-| ---                                         | ---                                                                                                                                                                     |
-| [flink-config.yaml](conf/flink-config.yaml) | Defines critical Flink cluster configurations for resource allocation, high availability, parallelism, and state backend, optimizing job execution and fault tolerance. |
-| [conf.toml](conf/conf.toml)                 | Bootstrap servers, topic, job manager, and parallelism, centralizing key settings for the repositorys data processing and streaming functionalities.                    |
-
-</details>
-
-<details closed><summary>src</summary>
-
-| File                                       | Summary                                                                                                                                                                                                                                                       |
-| ---                                        | ---                                                                                                                                                                                                                                                           |
-| [alerts_handler.py](src/alerts_handler.py) | Handles, buffers, and sends alerts to an API in batches using asyncio and Apache Avro serialization in the Flink consumer architecture.                                                                                                                       |
-| [logger.py](src/logger.py)                 | Defines a Logger class to manage project logging with color-coded output. Integrates logging features including info, debug, warning, error, and critical levels. Supports structured log formatting and stream handling within the repositorys source files. |
-| [consumer.py](src/consumer.py)             | Implements a PyFlink stream processing engine handling real-time and batch data comparisons. Orchestrates alerts for flagged data discrepancies. Manages fault tolerance and parallel processing for data streaming.                                          |
-
-</details>
+- [ ] 30-Day Streak
+- [ ] 50 Questions Solved
+- [ ] 100 Questions Solved
 
 ---
 
@@ -151,12 +68,12 @@ The pyflink-poc project is a robust software showcasing the integration of PyFli
 > 1. Clone the pyflink-poc repository:
 >
 > ```console
-> $ git clone ../pyflink-poc
+> $ git clone ../leetcode_daily
 > ```
 >
 > 2. Change to the project directory:
 > ```console
-> $ cd pyflink-poc
+> $ cd leetcode_daily
 > ```
 >
 > 3. Install the dependencies:
@@ -170,25 +87,13 @@ The pyflink-poc project is a robust software showcasing the integration of PyFli
 
 > Run pyflink-poc using the command below:
 > ```console
-> $ python main.py
+> $ python Python/file_name.py
 > ```
 
-### 🧪 Tests
 
-> Run the test suite using the command below:
-> ```console
-> $ pytest
-> ```
+## 🚀 How to Contribute
 
----
-
-## 🛠 Project Roadmap
-
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
-
----
+If you have suggestions for questions, better solutions, or want to discuss a topic, feel free to open an issue or submit a pull request!
 
 ## 🤝 Contributing
 
@@ -204,7 +109,7 @@ Contributions are welcome! Here are several ways you can contribute:
 1. **Fork the Repository**: Start by forking the project repository to your local account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone ../pyflink-poc
+   git clone ../leetcode_daily
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -223,17 +128,6 @@ Contributions are welcome! Here are several ways you can contribute:
 8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
 </details>
 
-<details closed>
-<summary>Contributor Graph</summary>
-<br>
-<p align="center">
-   <a href="https://local{/pyflink-poc/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=pyflink-poc">
-   </a>
-</p>
-</details>
-
----
 
 ## 📄 License
 
